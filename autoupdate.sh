@@ -11,5 +11,6 @@ cd /home/sp/log
 cp pycap.log pycap.log.bak
 cp spboot.log spboot.log.bak
 
+cd /home/sp
 python3 -u /home/sp/code/scripts/starter.py >> /home/sp/log/pycap.log &
 java -jar /home/sp/code/backend/backend-0.0.1-SNAPSHOT.jar >> /home/sp/log/spboot.log &
