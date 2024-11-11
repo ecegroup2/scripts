@@ -1,5 +1,8 @@
 #! /usr/bin/bash
 
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin 
+sleep 10  # Gives the network time to initialize
+
 # updates whenever availaible
 cd /home/sp/code/backend
 git pull
