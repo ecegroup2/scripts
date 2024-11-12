@@ -8,6 +8,8 @@ cd /home/sp/code/backend
 git pull
 cd /home/sp/code/scripts
 git pull
+cd /home/sp/code/frontend
+git pull
 
 #Backup old files
 cd /home/sp/log
